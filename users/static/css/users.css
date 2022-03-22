@@ -1,55 +1,47 @@
 
-body
-{
-    background-color:#202020 !important;
+body {
+    background-color: #202020 !important;
     color: #fff;
 }
 
-.backgroundImage > img
-{
+.backgroundImage > img {
     padding: 8px;
     max-width: 8%;
     position: absolute;
     opacity: 0.6;
 }
 
-#delivery > img
-{
+#delivery > img {
     transform: rotate(-25deg);
     top: 1cm;
     left: 5cm;
 }
 
-#grocery_2 > img
-{
+#grocery_2 > img {
     transform: rotate(-34deg);
     top: 5cm;
     left: 1cm;
 }
 
-#grocery_3 > img
-{
+#grocery_3 > img {
     transform: rotate(28deg);
     top: 1cm;
     left: 32cm;
 }
 
-#auto_repair > img
-{
+#auto_repair > img {
     transform: rotate(-18deg);
     top: 3cm;
     left: 12cm;
 }
 
-#medicine > img
-{
+#medicine > img {
     transform: rotate(28deg);
     top: 16cm;
     left: 2cm;
 }
 
-#phone_repair > img
-{
+#phone_repair > img {
     transform: rotate(-10deg);
     top: 15.5cm;
     left: 10cm;
@@ -57,25 +49,25 @@ body
     opacity: 1;
 }
 
-#checkboxx
-{
-	position: relative;
-	left: 60%;
-	bottom:45px;
-	font-weight: bold;
-	font-family: sans-serif;
-	font-variant: small-caps;
-	font-size: 15px;
+#checkboxx {
+    position: relative;
+    left: 60%;
+    bottom: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 15px;
 }
 
-h1{
+h1 {
     font-size: 3.5rem !important;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold !important;
     color: #f4ac08 !important;
 }
-h6{
+
+h6 {
     position: absolute;
     color: #f4ac08 !important;
     text-transform: capitalize;
@@ -83,7 +75,7 @@ h6{
     left: 42vw;
 }
 
-.form-label,#checkboxx{
+.form-label, #checkboxx {
     color: #f4ac08 !important;
     font-style: italic;
     font-weight: bold;
