@@ -7,7 +7,7 @@
 {% block body %}
     <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
         {% for msg in messages %}
-            <div class="alert {{ msg.tags }} alert-danger alert-dismissible fade show" role="alert">
+            <div class="alert {{ msg.tags }} alert-dismissible fade show" role="alert">
                 <strong>{{ msg }}</strong>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -18,9 +18,9 @@
             {% csrf_token %}
             <!-- Email input -->
             <div class="form-outline mb-4">
-                <input type="text" name="username" onfocus="focusFunction(event)"
+                <input type="text" name="contact" onfocus="focusFunction(event)"
                        id="form1Example13" class="form-control form-control-lg"/>
-                <label class="form-label" for="form1Example13">Username</label>
+                <label class="form-label" for="form1Example13">Contact</label>
             </div>
 
             <!-- Password input -->
